@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf8f1">
+  <meta name="description" content="Hoja de vida digital de Sara Ximena Torres: desarrollo de software, QA y ciberseguridad. Bogotá, Colombia.">
+  <title>Sara Ximena Torres | Desarrollo · QA</title>
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23153c31'/%3E%3Ctext x='16' y='22' font-size='16' font-weight='800' text-anchor='middle' fill='%23d9ed88'%3EXT%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="Estilo.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+      <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ximena Torres, inicio">XT<span>.</span></a>
+
+    <button class="menu-toggle" type="button"
+      aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="menu" aria-label="Navegación principal">
+      <a href="#inicio" aria-current="page">Inicio</a>
+      <a href="#perfil">Perfil</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#proyecto">Proyecto</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#formacion">Formación</a>
+      <a class="nav-contact" href="#contacto">Contacto <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            DESARROLLADORA JUNIOR · QA
+          </p>
+
+          <h1 id="hero-title">Ximena<br><em>Torres</em></h1>
+
+          <p class="role">
+            Desarrollo de software <span>·</span> QA <span>·</span> Ciberseguridad
+          </p>
+
+          <p class="intro">
+            Desarrolladora junior y profesional en QA, con interés en la calidad
+            del software, la mejora continua y la ciberseguridad. Disfruto
+            analizar, probar, resolver problemas y crear soluciones útiles y confiables.
+          </p>
+
+          <p class="location">
+            <span aria-hidden="true">⌖</span> Bogotá, Colombia
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyecto">
+              Ver proyectos <span aria-hidden="true">→</span>
+            </a>
+            <a class="button button-secondary"
+              href="https://github.com/Ximsam"
+              target="_blank" rel="noopener noreferrer">
+              GitHub <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-secondary" href="#contacto">Contáctame</a>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <span class="art-orbit orbit-one" aria-hidden="true"></span>
+          <span class="art-orbit orbit-two" aria-hidden="true"></span>
+
+          <picture>
+            <source srcset="img/profile-note.webp" type="image/webp">
+            <img class="profile-note" src="img/profile-note.png" width="900" height="754"
+              alt="Retrato de Sara Ximena Torres junto a una nota con las áreas Desarrollo, Pruebas (QA) y Seguridad">
+          </picture>
+
+          <span class="art-spark spark-one" aria-hidden="true">✳</span>
+          <span class="art-spark spark-two" aria-hidden="true">✦</span>
+        </div>
+      </div>
+
+      <div class="hero-footer">
+        <span>HOJA DE VIDA DIGITAL</span>
+        <span>DESARROLLO · CALIDAD · SEGURIDAD</span>
+      </div>    
+    </section>
+
+    <section class="profile-section" id="perfil" aria-labelledby="profile-title">
+    <div class="profile-label">
+        <span>01 / PERFIL</span>
+        <h2 id="profile-title">Sobre<br><em>mí.</em></h2>
+        <i aria-hidden="true"></i>
+    </div>
+
+    <div class="profile-summary">
+        <p>
+        Me apasiona el desarrollo web, el aseguramiento de la calidad (QA) y la
+        ciberseguridad. Tengo una mirada analítica, soy detallista y disfruto el
+        proceso de probar, mejorar y construir soluciones que aporten valor.
+        </p>
+
+        <button
+        class="profile-more"
+        type="button"
+        aria-expanded="false"
+        aria-controls="profile-details"
+        >
+        Conoce mi enfoque <span aria-hidden="true">＋</span>
+        </button>
+
+        <div class="profile-details" id="profile-details" hidden>
+        <p>
+            Durante mis prácticas en Belltech participé en pruebas funcionales,
+            documentación técnica y seguimiento de incidencias. Quiero seguir
+            creciendo en programación y ciberseguridad, aportando organización,
+            curiosidad y compromiso con la calidad.
+        </p>
+        </div>
+    </div>
+
+    <ul class="profile-focus" aria-label="Mis principales enfoques">
+        <li>
+        <span class="focus-icon" aria-hidden="true">&lt;/&gt;</span>
+        <span>Enfoque en calidad y buenas prácticas</span>
+        </li>
+        <li>
+        <span class="focus-icon" aria-hidden="true">◇</span>
+        <span>Interés en ciberseguridad</span>
+        </li>
+        <li>
+        <span class="focus-icon" aria-hidden="true">✳</span>
+        <span>Mentalidad de mejora continua</span>
+        </li>
+    </ul>
+    </section>
+    <section class="experience-section" id="experiencia" aria-labelledby="experience-title">
+  <div class="experience-heading">
+    <div class="experience-title-block">
+      <span class="section-kicker">02 / EXPERIENCIA</span>
+      <h2 id="experience-title">Experiencia<br><em>profesional.</em></h2>
+    </div>
+    <p class="experience-period">2025 <span>—</span> 2026</p>
+  </div>
+
+  <article class="experience-card">
+    <div class="experience-timeline" aria-hidden="true">
+      <span></span>
+    </div>
+
+    <div class="experience-content">
+      <div class="experience-topline">
+        <div class="company-mark" aria-hidden="true">B</div>
+
+        <div class="company-info">
+          <p class="experience-type">PRÁCTICAS · BOGOTÁ</p>
+          <h3>Belltech S.A.</h3>
+          <p class="experience-date">Noviembre 2025 — Mayo 2026</p>
+        </div>
+
+        <span class="experience-status"><i></i> Finalizado</span>
+      </div>
+
+      <p class="experience-summary">
+        Prácticas en un entorno financiero: pruebas, documentación y seguimiento de incidencias en sistemas transaccionales.
+      </p>
+
+      <div class="experience-highlights">
+        <article class="highlight-card">
+          <span class="highlight-number">01</span>
+          <h4>Pruebas funcionales</h4>
+          <p>Ejecución de pruebas, verificación de funcionalidades y registro de resultados.</p>
+        </article>
+
+        <article class="highlight-card">
+          <span class="highlight-number">02</span>
+          <h4>Documentación técnica</h4>
+          <p>Apoyo en la elaboración y actualización de documentación relacionada con el software.</p>
+        </article>
+
+        <article class="highlight-card">
+          <span class="highlight-number">03</span>
+          <h4>Mitigación de riesgos</h4>
+          <p>Identificación de posibles fallos, reporte de hallazgos y seguimiento para su resolución.</p>
+        </article>
+      </div>
+
+      <button
+        class="experience-more"
+        type="button"
+        aria-expanded="false"
+        aria-controls="experience-details"
+      >
+        Ver todas mis funciones <span aria-hidden="true">＋</span>
+      </button>
+
+      <div class="experience-details" id="experience-details" hidden>
+        <ul>
+          <li>
+            Diseño e implementación de casos de prueba para sistemas transaccionales
+            y cajeros automáticos.
+          </li>
+          <li>
+            Elaboración de manuales, reportes de bugs y documentación de trazabilidad.
+          </li>
+          <li>
+            Protección de datos sensibles bajo políticas corporativas de confidencialidad.
+          </li>
+          <li>
+            Colaboración con líderes de área para resolver incidentes y alinear
+            entregables técnicos.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </article>
+</section>
+  <section class="project-section" id="proyecto" aria-labelledby="project-title">
+    <div class="section-head">
+      <span class="section-kicker">03 / PROYECTO</span>
+      <h2 id="project-title">Proyecto<br><em>destacado.</em></h2>
+    </div>
+
+    <article class="project-card">
+      <figure class="project-figure">
+        <picture>
+          <source srcset="img/onclub-project.webp" type="image/webp">
+          <img src="img/onclub-project.png" width="1000" height="750" loading="lazy"
+            alt="Pantalla del panel ONCLUB: control de caddies, reportes semanales y mensuales, exportación a PDF y Excel">
+        </picture>
+        <figcaption>Vista general del panel ONCLUB</figcaption>
+      </figure>
+
+      <div class="project-body">
+        <p class="experience-type">APLICACIÓN WEB · GESTIÓN</p>
+        <h3>ONCLUB — Control de caddies</h3>
+        <p>
+          Sistema para <strong>digitalizar el ingreso y control de caddies</strong>, con
+          generación de <em>reportes automáticos semanales y mensuales</em> y opción de
+          exportación en <mark>PDF y Excel</mark>.
+        </p>
+        <ul class="tags" aria-label="Tecnologías del proyecto">
+          <li class="tag-lime">Análisis</li><li class="tag-coral">Automatización</li><li>Reportes</li>
+        </ul>
+        <div class="project-links">
+          <a class="button button-primary" href="https://github.com/Ximsam" target="_blank" rel="noopener noreferrer">
+            Ver código <span aria-hidden="true">↗</span>
+          </a>
+          <a class="button button-secondary" href="#habilidades">Ver habilidades</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="skills-section" id="habilidades" aria-labelledby="skills-title">
+    <div class="section-head">
+      <span class="section-kicker">04 / HABILIDADES</span>
+      <h2 id="skills-title">Habilidades<br><em>técnicas.</em></h2>
+    </div>
+
+    <div class="table-wrap" tabindex="0" role="region" aria-labelledby="skills-title">
+      <table class="skills-table">
+        <caption>Habilidades técnicas con su nivel de dominio</caption>
+        <thead>
+          <tr>
+            <th scope="col">Habilidad</th>
+            <th scope="col">Área</th>
+            <th scope="col">Nivel</th>
+            <th scope="col">Dominio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">HTML</th>
+            <td>Frontend</td>
+            <td><span class="level level-3">Avanzado</span></td>
+            <td><span class="bar" role="img" aria-label="HTML: Avanzado"><i style="width:80%"></i></span></td>
+          </tr>
+          <tr>
+            <th scope="row">CSS</th>
+            <td>Frontend</td>
+            <td><span class="level level-3">Avanzado</span></td>
+            <td><span class="bar" role="img" aria-label="CSS: Avanzado"><i style="width:80%"></i></span></td>
+          </tr>
+          <tr>
+            <th scope="row">PHP</th>
+            <td>Backend</td>
+            <td><span class="level level-2">Intermedio</span></td>
+            <td><span class="bar" role="img" aria-label="PHP: Intermedio"><i style="width:60%"></i></span></td>
+          </tr>
+          <tr>
+            <th scope="row">SQL</th>
+            <td>Bases de datos</td>
+            <td><span class="level level-2">Intermedio</span></td>
+            <td><span class="bar" role="img" aria-label="SQL: Intermedio"><i style="width:60%"></i></span></td>
+          </tr>
+          <tr>
+            <th scope="row">JavaScript</th>
+            <td>Frontend</td>
+            <td><span class="level level-2">Intermedio</span></td>
+            <td><span class="bar" role="img" aria-label="JavaScript: Intermedio"><i style="width:60%"></i></span></td>
+          </tr>
+          <tr>
+            <th scope="row">MongoDB</th>
+            <td>Bases de datos</td>
+            <td><span class="level level-1">Básico</span></td>
+            <td><span class="bar" role="img" aria-label="MongoDB: Básico"><i style="width:35%"></i></span></td>
+          </tr>
+          <tr>
+            <th scope="row">Python</th>
+            <td>Lenguajes</td>
+            <td><span class="level level-1">Básico</span></td>
+            <td><span class="bar" role="img" aria-label="Python: Básico"><i style="width:35%"></i></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="soft-skills">
+      <h3>Habilidades blandas</h3>
+      <ul class="tags">
+        <li>Aprendizaje continuo</li><li>Trabajo en equipo</li><li>Responsabilidad</li><li>Análisis detallado</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="education-section" id="formacion" aria-labelledby="education-title">
+    <div class="section-head">
+      <span class="section-kicker">05 / FORMACIÓN</span>
+      <h2 id="education-title">Formación<br><em>académica.</em></h2>
+    </div>
+
+    <div class="education-grid">
+      <article class="edu-card">
+        <p class="experience-type">FINALIZADO · 2025</p>
+        <h3>Técnico en Programación de Software</h3>
+        <p>SENA</p>
+      </article>
+      <article class="edu-card">
+        <p class="experience-type">FINALIZADO · 2024</p>
+        <h3>Bachiller con Técnica de Música</h3>
+        <p>Instituto Diversificado Albert Einstein</p>
+      </article>
+      <article class="edu-card">
+        <p class="experience-type">EN PROCESO</p>
+        <h3>Cursos de formación continua</h3>
+        <p>Platzi: Desarrollo Web · English Academy · AI Academy.</p>
+      </article>
+      <article class="edu-card">
+        <p class="experience-type">EN CURSO</p>
+        <h3>Ingeniería · 3.er semestre</h3>
+        <p>Fundación Universitaria Compensar</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="languages-section" id="idiomas" aria-labelledby="languages-title">
+    <div class="section-head">
+      <span class="section-kicker">06 / IDIOMAS</span>
+      <h2 id="languages-title">Idiomas<em>.</em></h2>
+    </div>
+    <ul class="lang-list">
+      <li><strong>Español</strong> <span>Nativo</span></li>
+      <li><strong>Inglés</strong> <span>Básico</span></li>
+    </ul>
+  </section>
+
+  <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+    <div class="section-head">
+      <span class="section-kicker">CONTACTO</span>
+      <h2 id="contact-title">¿Trabajemos<br><em>juntos?</em></h2>
+      <p class="contact-lead">Estoy abierta a nuevas oportunidades, proyectos y colaboraciones. ¡Hablemos!</p>
+    </div>
+
+    <div class="contact-grid">
+      <ul class="contact-list">
+        <li><span>Correo</span><a href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com</a></li>
+        <li><span>GitHub</span><a href="https://github.com/Ximsam" target="_blank" rel="noopener noreferrer">github.com/Ximsam ↗</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer">linkedin.com/in/tu-usuario ↗</a></li>
+        <li><span>Ubicación</span>Bogotá, Colombia</li>
+      </ul>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+        <label for="correo">Correo</label>
+        <input id="correo" name="correo" type="email" autocomplete="email" required>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <button class="button button-primary" type="submit">Enviar mensaje <span aria-hidden="true">→</span></button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span>© <span id="year">2026</span> Sara Ximena Torres</span>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer>
+</main>
+</body>
+</html>
